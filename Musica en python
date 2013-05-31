@@ -7,5 +7,5 @@ pygame.mixer.init(44100, -16, 2, 4036)
 reload(sys)
 sys.setdefaultencoding('utf8')
 
-pygame.mixer.music.load('../song/Cristo.mp3')
+pygame.mixer.music.load('song/Cristo.mp3')
 pygame.mixer.music.play(-1)
